@@ -3,24 +3,20 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Copyright ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
+//  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-#ifndef ___FILEBASENAMEASIDENTIFIER____H
-#define ___FILEBASENAMEASIDENTIFIER____H
+#ifndef ___PROJECTNAMEASIDENTIFIER_______FILEBASENAMEASIDENTIFIER_______FILEEXTENSION___
+#define ___PROJECTNAMEASIDENTIFIER_______FILEBASENAMEASIDENTIFIER_______FILEEXTENSION___
 
 #include "cocos2d.h"
 
-using namespace cocos2d;
-
-class ___FILEBASENAMEASIDENTIFIER___ : public ___VARIABLE_cocos2DXSubclass___ 
+class ___FILEBASENAMEASIDENTIFIER___ : public cocos2d::___VARIABLE_cocos2dxSubclass___ 
 {
-    
-public:
-    ___FILEBASENAMEASIDENTIFIER___();
-    virtual ~___FILEBASENAMEASIDENTIFIER___();
-    static ___FILEBASENAMEASIDENTIFIER___* node();
-    bool init();
 
+public:
+	___FILEBASENAMEASIDENTIFIER___();
+	virtual ~___FILEBASENAMEASIDENTIFIER___();
 };
+
 #endif
