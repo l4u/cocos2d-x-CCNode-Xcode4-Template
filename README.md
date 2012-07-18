@@ -1,4 +1,6 @@
-# Xcode 4 File Templates for Cocos2d-X
+# Cocos2d-X Xcode 4 Class Template
+
+#### A C++ class template, with implementation and header files for Cocos2d-X.
 
 If you have installed the official Cocos2d-X Xcode 4 templates, the folder ~/Library/Developer/Xcode/Templates/cocos2d-x/ should exist. 
 If it doesn't exist, you can create it by
