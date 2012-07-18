@@ -58,6 +58,8 @@
 			<key>Values</key>
 			<array>
 				<string>CCObject</string>
+				<string>CCNode</string>
+				<string>CCSprite</string>
 			</array>
 		</dict>
 	</array>
