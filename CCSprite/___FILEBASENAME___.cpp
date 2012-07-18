@@ -32,5 +32,10 @@ ___FILEBASENAMEASIDENTIFIER___* ___FILEBASENAMEASIDENTIFIER___::create()
 
 bool ___FILEBASENAMEASIDENTIFIER___::init()
 {
+	if (!___VARIABLE_cocos2dxSubclass___::init())
+	{
+		return false;
+	}
+	
 	return true;
 }

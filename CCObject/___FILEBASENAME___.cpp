@@ -17,20 +17,3 @@ ___FILEBASENAMEASIDENTIFIER___::___FILEBASENAMEASIDENTIFIER___()
 ___FILEBASENAMEASIDENTIFIER___::~___FILEBASENAMEASIDENTIFIER___()
 {
 }
-
-___FILEBASENAMEASIDENTIFIER___* ___FILEBASENAMEASIDENTIFIER___::create()
-{
-    ___FILEBASENAMEASIDENTIFIER___* pRet = new ___FILEBASENAMEASIDENTIFIER___();
-	if (pRet && pRet->init())
-	{
-		pRet->autorelease();
-		return pRet;
-	}
-	CC_SAFE_DELETE(pRet);
-	return NULL;
-}
-
-bool ___FILEBASENAMEASIDENTIFIER___::init()
-{
-	return true;
-}
