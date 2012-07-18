@@ -62,11 +62,23 @@
 				<string>CCSprite</string>
 			</array>
 		</dict>
+		<!--
+		// Potential option usage for future
+		<dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>Identifier</key>
+			<string>NS</string>
+			<key>Name</key>
+			<string>Subclass is cocos2d namespaced</string>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+		-->
 	</array>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
-		<string>com.apple.platform.macosx</string>
 	</array>
 	<key>SortOrder</key>
 	<string>1</string>
