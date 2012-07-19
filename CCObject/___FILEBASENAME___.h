@@ -15,12 +15,8 @@ class ___FILEBASENAMEASIDENTIFIER___ : public cocos2d::___VARIABLE_cocos2dxSubcl
 {
 
 public:
-	static ___FILEBASENAMEASIDENTIFIER___* create();
-
-public:
 	___FILEBASENAMEASIDENTIFIER___();
 	virtual ~___FILEBASENAMEASIDENTIFIER___();
-	virtual bool init();
 };
 
 #endif
